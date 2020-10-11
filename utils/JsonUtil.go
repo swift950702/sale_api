@@ -16,4 +16,3 @@ func ReturnError(code int, msg string) *JsonStruct {
 	json := &JsonStruct{Code: code, Msg: msg}
 	return json
 }
-ssh root@121.199.21.183 -p 22 

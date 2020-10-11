@@ -5,6 +5,7 @@ import (
 	"api/controllers/sales"
 
 	"github.com/astaxie/beego"
+	"github.com/astaxie/beego/plugins/cors"
 )
 
 func init() {
@@ -20,4 +21,12 @@ func init() {
 	beego.SetStaticPath("/images/index", "static/img")
 
 	beego.Router("/user/login", &account.AccountController{}, "*:Login")
+	beego.InsertFilter("*", beego.BeforeRouter, cors.Allow(&cors.Options{
+		//AllowAllOrigins:  true,
+		AllowMethods:     []string{"*"},
+		AllowHeaders:     []string{"Origin", "Authorization", "Access-Control-Allow-Origin", "content-type"},
+		ExposeHeaders:    []string{"Content-Length", "Access-Control-Allow-Origin"},
+		AllowCredentials: true,
+		AllowOrigins:     []string{"http://114.246.107.230", "http://localhost:*", "http://127.0.0.1:*"},
+	}))
 }
