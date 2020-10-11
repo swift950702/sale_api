@@ -1,0 +1,75 @@
+2020/08/19 16:33:53.575 [I] [auth.go:49]  Login success by param：{0 lijun 123456 }
+2020/08/19 16:33:53.576 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|   6.647007ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 16:39:01.684 [I] [auth.go:49]  Login success by param：{0 lijun 123456 }
+2020/08/19 16:39:01.695 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|   11.17305ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 16:39:31.473 [D] [server.go:2836]  |            ::1|[97;43m 405 [0m|    123.202µs|   match|[97;44m GET     [0m /v1/user/info   r:/v1/user/info
+2020/08/19 16:40:00.962 [D] [server.go:2836]  |            ::1|[97;43m 405 [0m|     59.349µs|   match|[97;44m GET     [0m /v1/user/info   r:/v1/user/info
+2020/08/19 19:18:13.629 [I] [auth.go:65]  Login success by param：{0 lijun 123456 }
+2020/08/19 19:18:13.630 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|   3.010149ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 19:22:43.569 [I] [auth.go:70]  Login success by param：{0 lijun 123456 }
+2020/08/19 19:22:43.570 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|  12.988686ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 19:24:01.487 [I] [auth.go:70]  Login success by param：{0 lijun 123456 }
+2020/08/19 19:24:01.488 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|  18.847587ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 19:26:33.738 [I] [auth.go:70]  Login success by param：{0 lijun 123456 }
+2020/08/19 19:26:33.738 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|   9.972654ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 19:26:50.575 [I] [auth.go:70]  Login success by param：{0 lijun 123456 }
+2020/08/19 19:26:50.575 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|  11.764138ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 19:30:04.924 [I] [auth.go:70]  Login success by param：{0 lijun 123456 }
+2020/08/19 19:30:04.925 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|   12.28656ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 19:30:43.981 [I] [auth.go:70]  Login success by param：{0 lijun 123456 }
+2020/08/19 19:30:43.982 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|  12.105033ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 19:39:45.699 [I] [auth.go:75]  Login success by param：{0 lijun 123456 }
+2020/08/19 19:39:45.700 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|  12.227084ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 19:39:46.944 [I] [auth.go:75]  Login success by param：{0 lijun 123456 }
+2020/08/19 19:39:46.951 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|  10.478621ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 19:40:09.908 [I] [auth.go:75]  Login success by param：{0 lijun 123456 }
+2020/08/19 19:40:09.916 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|  10.134325ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 19:40:15.138 [I] [auth.go:75]  Login success by param：{0 lijun 123456 }
+2020/08/19 19:40:15.145 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|  11.093543ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 19:40:47.989 [I] [auth.go:75]  Login success by param：{0 lijun 123456 }
+2020/08/19 19:40:47.990 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|  17.112548ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 19:55:50.483 [I] [auth.go:70]  Login success by param：{0 lijun 123456 }
+2020/08/19 19:55:50.484 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|  12.307057ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 19:56:03.319 [I] [auth.go:70]  Login success by param：{0 lijun 123456 }
+2020/08/19 19:56:03.327 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|  10.260161ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 19:56:39.467 [I] [auth.go:70]  Login success by param：{0 lijun 123456 }
+2020/08/19 19:56:39.476 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|  11.264962ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 19:57:05.942 [I] [auth.go:70]  Login success by param：{0 lijun 123456 }
+2020/08/19 19:57:05.949 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|   8.679819ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 19:57:40.784 [I] [auth.go:70]  Login success by param：{0 lijun 123456 }
+2020/08/19 19:57:40.785 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|   8.170837ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 19:58:30.068 [I] [auth.go:70]  Login success by param：{0 lijun 123456 }
+2020/08/19 19:58:30.068 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|  14.962181ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 20:23:52.717 [I] [auth.go:66]  Login success by param：{0 123456 lijun }
+2020/08/19 20:23:52.719 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|   16.84855ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 20:24:20.160 [I] [auth.go:66]  Login success by param：{0 12345678 lijun }
+2020/08/19 20:24:20.161 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|   1.922092ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 20:26:47.107 [I] [auth.go:66]  Login success by param：{0 12345678 lijun }
+2020/08/19 20:26:47.108 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|   9.055415ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 20:26:51.780 [I] [auth.go:66]  Login success by param：{0 12345678 lijunsdf }
+2020/08/19 20:26:51.788 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|   9.553348ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 20:26:54.900 [I] [auth.go:66]  Login success by param：{0 12345678 lijunsdf }
+2020/08/19 20:26:54.908 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|   9.620553ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 20:28:28.755 [I] [auth.go:66]  Login success by param：{0 12345678 lijunsdf }
+2020/08/19 20:28:28.756 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|   2.655407ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 21:36:51.776 [I] [auth.go:55]  Login success by param：{0 12345678 lijunsdf }
+2020/08/19 21:36:51.778 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|  12.025387ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 21:38:06.535 [I] [auth.go:55]  Login success by param：{0 12345678 lijunsdf }
+2020/08/19 21:38:06.537 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|  11.164816ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 21:45:49.598 [I] [auth.go:55]  Login success by param：{0 12345678 lijunsdf }
+2020/08/19 21:45:49.599 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|  12.553544ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/19 21:46:11.332 [I] [auth.go:55]  Login success by param：{0 12345678 lijunsdf }
+2020/08/19 21:46:11.342 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|   11.03679ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/25 20:21:45.045 [I] [auth.go:55]  Login success by param：{0 12345678 lijunsdf }
+2020/08/25 20:21:45.047 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|  14.141609ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/25 20:21:50.212 [I] [auth.go:55]  Login success by param：{0 12345678 lijun }
+2020/08/25 20:21:50.222 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|  11.397022ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/25 20:21:51.537 [I] [auth.go:55]  Login success by param：{0 12345678 lijun }
+2020/08/25 20:21:51.550 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|  13.714925ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/25 20:21:55.971 [I] [auth.go:55]  Login success by param：{0 123456 lijun }
+2020/08/25 20:21:55.982 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|  11.529992ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/25 20:26:14.801 [I] [auth.go:55]  Login success by param：{0 123456 lijun }
+2020/08/25 20:26:14.804 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|  15.105556ms|   match|[97;46m POST    [0m /user/login   r:/user/login
+2020/08/25 20:26:18.684 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|   1.547831ms|   match|[97;46m POST    [0m /v1/salestype/detail   r:/v1/salestype/detail
+2020/08/25 20:26:27.257 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|    1.54022ms|   match|[97;46m POST    [0m /v1/salestype/detail   r:/v1/salestype/detail
+2020/08/25 20:26:28.002 [D] [server.go:2836]  |            ::1|[97;42m 200 [0m|   1.582604ms|   match|[97;46m POST    [0m /v1/salestype/detail   r:/v1/salestype/detail
