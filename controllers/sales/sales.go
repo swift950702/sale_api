@@ -21,7 +21,7 @@ type SalesController struct {
 var db = model.DB
 
 func (this *SalesController) AllSalesTypes() {
-	definition, err := config.NewConfig("ini", "/Users/zuiyou/mywork/src/api/conf/app.conf")
+	definition, err := config.NewConfig("ini", "../../conf/app.conf")
 	if err != nil {
 		fmt.Println("new config failed, err:", err)
 		return
