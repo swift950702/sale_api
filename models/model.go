@@ -12,7 +12,7 @@ var DB *gorm.DB
 var err error
 
 func initDB() {
-	DB, err = gorm.Open("mysql", "root:lijun950702@/domesticDB?charset=utf8&parseTime=True&loc=Local")
+	DB, err = gorm.Open("mysql", "root:20000927@/domesticDB?charset=utf8&parseTime=True&loc=Local")
 	if err != nil {
 		fmt.Println(err)
 	}
